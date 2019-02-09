@@ -1,0 +1,12 @@
+{
+  "request" : {
+    "url" : "/v2/launches",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "lanches.json"
+
+
+  }
+}

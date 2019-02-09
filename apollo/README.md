@@ -2,24 +2,29 @@
 
 This is the fullstack app for the [Apollo tutorial](http://apollographql.com/docs/tutorial/introduction.html). 🚀
 
-## File structure
+## Prerequisite 
+* node & npm 
 
-The app is split out into two folders:
-- `start`: Starting point for the tutorial
-- `final`: Final version
+## Setup 
+Npm install : 
+``` npm install ```
 
-From within the `start` and `final` directories, there are two folders (one for `server` and one for `client`).
+## Mock 
+``` cd server && npm run start:mock ```
 
-## Installation
+* [http://wiremock.org/](http://wiremock.org/)
+* [https://www.npmjs.com/package/wiremock-standalone](https://www.npmjs.com/package/wiremock-standalone)
 
-To run the app, run these commands in two separate terminal windows from the root:
+## Run
 
-```bash
-cd final/server && npm i && npm start
-```
+### Server
+``` cd server && npm i && npm start ```
 
-and
+### Client
+```cd client && npm i && npm start```
 
-```bash
-cd final/client && npm i && npm start
-```
+### angular client
+
+```cd client-angular && npm i && npm start```
+
+

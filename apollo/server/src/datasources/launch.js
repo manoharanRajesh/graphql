@@ -4,6 +4,7 @@ class LaunchAPI extends RESTDataSource {
   constructor() {
     super();
     this.baseURL = 'https://api.spacexdata.com/v2/';
+    //this.baseURL = 'http://localhost:8080/v2/';
   }
 
   // leaving this inside the class to make the class easier to test
