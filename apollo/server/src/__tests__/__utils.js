@@ -13,7 +13,7 @@ const {
   LaunchAPI,
   UserAPI,
   store,
-} = require('../');
+} = require('..');
 
 /**
  * Integration testing utils
